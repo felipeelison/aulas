@@ -1,0 +1,23 @@
+ /* Executa primeiro, depois testa*/
+var c = 1
+do {
+    console.log('Passo ${c}')
+    c++
+} while(c <= 2)
+
+
+ /* Testa primeiro, depois executa*/
+var c = 1
+while (c < 5) {
+  console.log('Passo ${c}');
+  c++;
+}
+
+ /* Por Repetição*/
+console.log('Tudo bem?')
+console.log('Tudo bem?')
+console.log('Tudo bem?')
+console.log('Tudo bem?')
+console.log('Tudo bem?')
+console.log('Tudo bem?')
+console.log('Tudo bem?')
